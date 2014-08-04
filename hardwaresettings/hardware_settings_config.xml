@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hardware_settings_config version="20" deviceId="0x0DC4">
+	<cpu>
+		<threadStrategy workerMapFile="system/workerMap2Core.xml" forceFeedbackProcessor="1" dvdStorageProcessor="1" dataSetMonitorProcessor="0" renderProcessor="0" updateProcessor="1" fileStreamProcessor="1" />
+	</cpu>
+	<audio_card>
+		<dynamic_range value="high" />
+		<eq value="flat" />
+		<voice_chat enabled="true" />
+		<push_to_talk enabled="false" />
+		<ai_count value="medium" />
+		<voice_count value="medium" />
+	</audio_card>
+	<graphics_card firstBoot="true" rating="3">
+		<directx forcedx10="false" />
+		<eyefinity force="" osd="" />
+		<stereo enabled="false" separation="0.015" convergence="0.5" />
+		<advanced forward="false" global_illumination="false" />
+		<intel tree_aoit="false" particle_avsm="false" />
+		<resolution width="1600" height="900" aspect="auto" fullscreen="true" vsync="0" multisampling="4xmsaa">
+			<refreshRate rate="60" />
+		</resolution>
+		<gamma level="0.8" />
+		<avsm enabled="false" />
+	</graphics_card>
+	<shadows enabled="true" size="1024" maskQuality="0" particles="false" />
+	<advanced_fog enabled="false" />
+	<particles enabled="true" wind="true" dynamicRes="true" lowResScalar="4" nearFadeBias="0" />
+	<crowd enabled="true" detail="2" />
+	<cloth enabled="true" />
+	<groundcover mode="blended" clutter="true" />
+	<objects lod="1.0" maxlod="0" />
+	<trees lod="1.0" maxlod="0" meshes="true" />
+	<vehicles characterQuality="2" lodQuality="1" />
+	<track quality="0" />
+	<envmap faces="6" size="256" drawallobjects="false" scaleminsize="1.5" mindistance="0.0" />
+	<water update="true" detail="1" scale="8" drawallobjects="false" tessellation="true" />
+	<skidmarks enabled="true" />
+	<dynamic_ambient_occ enabled="true" quality="2" />
+	<dynamic_ambient_occ_soft enabled="false" />
+	<night_lighting volumes="false" lights="0" shadows="false" onlyHeadlights="false" shadowSize="1024" />
+	<textures resolution="2" />
+	<shaders quality="1" low_quality="false" />
+	<anisotropic min="1" max="2" />
+	<physics environmentalDamage="true" vehicleDamage="true" />
+	<input device_type="auto" />
+	<motion enabled="true" ip="dbox" port="20777" delay="1" extradata="0" />
+	<second_screen quality="0" />
+</hardware_settings_config>

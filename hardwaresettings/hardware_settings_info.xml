@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hardware_settings_info>
+	<systemInfo OS="Service Pack 1 (Build 7601)" totalMemory="8387064" winPlatformID="2" winMajorVersion="6" winMinorVersion="1" rating="4" />
+	<cpu name="Intel(R) Core(TM)2 Duo CPU     E7400  @ 2.80GHz" speed="2800" cores="2" hyperThreading="false" sse3Supported="true" avxSupported="false" rating="3" />
+	<graphics_card name="NVIDIA GeForce GTS 450" vendorId="0x10DE" deviceId="0x0DC4" native_width="1600" native_height="900" memory="978" rating="3">
+		<resolution width="800" height="600">
+			<refreshRate rate="56" />
+			<refreshRate rate="60" />
+			<refreshRate rate="75" />
+		</resolution>
+		<resolution width="1024" height="768">
+			<refreshRate rate="60" />
+			<refreshRate rate="75" />
+		</resolution>
+		<resolution width="1152" height="864">
+			<refreshRate rate="75" />
+		</resolution>
+		<resolution width="1280" height="720">
+			<refreshRate rate="60" />
+			<refreshRate rate="59" />
+		</resolution>
+		<resolution width="1280" height="768">
+			<refreshRate rate="59" />
+		</resolution>
+		<resolution width="1280" height="800">
+			<refreshRate rate="59" />
+		</resolution>
+		<resolution width="1360" height="768">
+			<refreshRate rate="59" />
+		</resolution>
+		<resolution width="1366" height="768">
+			<refreshRate rate="59" />
+		</resolution>
+		<resolution width="1440" height="900">
+			<refreshRate rate="59" />
+		</resolution>
+		<resolution width="1600" height="900">
+			<refreshRate rate="60" />
+		</resolution>
+		<capabilities>
+			<multisampling>
+				<mode name="off" />
+				<mode name="cmaa" />
+				<mode name="2xmsaa" />
+				<mode name="4xmsaa" />
+				<mode name="8xmsaa" />
+				<mode name="8xcsaa" />
+				<mode name="8xqcsaa" />
+				<mode name="16xcsaa" />
+				<mode name="16xqcsaa" />
+			</multisampling>
+		</capabilities>
+	</graphics_card>
+	<audio_card />
+</hardware_settings_info>
